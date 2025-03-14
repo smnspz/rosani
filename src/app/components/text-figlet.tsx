@@ -29,7 +29,7 @@ export default function TextFiglet({
   children,
   animate = true,
   animationSpeed = 1,
-  minHeight = "150px", // Default minimum height to reserve space
+  minHeight = "144px", // Default minimum height to reserve space
 }: TextFigletProps) {
   const [figletText, setFigletText] = useState<string>("");
   const [isLoading, setIsLoading] = useState(true);
